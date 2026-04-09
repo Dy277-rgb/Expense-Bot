@@ -1,21 +1,21 @@
 
 #!/usr/bin/env python3
-"""
-Daily Expense Tracker Telegram Bot
-===================================
-Features:
-  - Add / Edit / Delete expenses
-  - View summaries: Today, This Week, This Month, This Year
-  - Export to Excel (.xlsx)
+# """
+# Daily Expense Tracker Telegram Bot
+# ===================================
+# Features:
+#   - Add / Edit / Delete expenses
+#   - View summaries: Today, This Week, This Month, This Year
+#   - Export to Excel (.xlsx)
 
-Requirements:
-  pip install python-telegram-bot==20.7 openpyxl aiosqlite
+# Requirements:
+#   pip install python-telegram-bot==20.7 openpyxl aiosqlite
 
-Setup:
-  1. Create a bot via @BotFather and copy the token.
-  2. Set BOT_TOKEN below (or export as env var TELEGRAM_BOT_TOKEN).
-  3. Run:  python expense_bot.py
-"""
+# Setup:
+#   1. Create a bot via @BotFather and copy the token.
+#   2. Set BOT_TOKEN below (or export as env var TELEGRAM_BOT_TOKEN).
+#   3. Run:  python expense_bot.py
+# """
 
 import os
 import logging
